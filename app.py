@@ -13,6 +13,8 @@ from typing import Iterable, List, Optional
 
 from langchain_groq import ChatGroq
 
+import os
+os.makedirs("json", exist_ok=True)
 cached_llm =ChatGroq(temperature=0, groq_api_key="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", model_name="mixtral-8x7b-32768")
 
 
