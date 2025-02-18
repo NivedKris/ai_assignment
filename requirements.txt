@@ -5,4 +5,5 @@ langchain_community
 langchain_groq
 chromadb
 fastembed
+PyPdf2
 dotenv
